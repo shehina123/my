@@ -1,0 +1,9 @@
+a=input('enter a')
+b=input('enter b')
+c=input('enter c')
+if a>=b and c:
+    print(f'max(a,b,c)={a}')
+if b>=a and c:
+    print(f'max(a,b,c)={b}')
+if c>=a and b:
+    print(f'max(a,b,c)={c}')
